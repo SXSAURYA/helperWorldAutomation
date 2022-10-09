@@ -1,0 +1,124 @@
+{
+    "Agency": {
+        "Step_1": [
+            "Agency Name",
+            "First name",
+            "Last name",
+            "Email",
+            "Country code",
+            "Primary telephone number",
+            "Secondary Country code",
+            "Secondary telephone number",
+            "Country",
+            "State",
+            "City",
+            "Postcode",
+            "Street address",
+            "Nationality",
+            "Last Login IP"
+        ],
+        "Step_2": [
+            "Job type",
+            "We would like a candidate from",
+            "Primary language",
+            "Service Provided Type Agency",
+            "Title",
+            "Agency Founded",
+            "Email If Different",
+            "Company Registration",
+            "Your Homepage",
+            "ID Proof Agency"
+        ],
+        "Step_3": [
+            "Upload logo",
+            "Enter Profile text for Employees",
+            "Enter Profile text for host family",
+            "Enter text about Tasks, schedule and payment to emplyees",
+            "Enter Text about us",
+            "Any other text"
+        ]
+    },
+    "Employee": {
+        "Step_1": [
+            "First name",
+            "Last name",
+            "Email",
+            "Gender",
+            "Dob",
+            "Country code",
+            "Phone Number",
+            "Country",
+            "State",
+            "City",
+            "Postcode",
+            "Address",
+            "Nationality",
+            "Last Login IP"
+        ],
+        "Step_2": [
+            "Job type",
+            "Do you Smoke?",
+            "Vegan?",
+            "Do you have a driving licence?",
+            "The country in which you want to work?",
+            "The city type for work",
+            "Would you be willing to do housework?",
+            "Are you willing to work in a single parent family?",
+            "Do you mind if family members smoke?",
+            "Are you willing to work with children with special needs?",
+            "Age range of the children you wish to take care of",
+            "Earliest date you wish to start working",
+            "Latest date you wish to start working",
+            "Minimum stay",
+            "Maximum stay"
+        ],
+        "Step_3": [
+            "Profile photo",
+            "ID Proof Agency",
+            "Profile text for Employers/Host Family",
+            "About my personality",
+            "About my family and friends",
+            "About helping experience",
+            "Any other text"
+        ]
+    },
+    "Employer": {
+        "Step_1": [
+            "First name",
+            "Last name",
+            "Email",
+            "Gender",
+            "Dob",
+            "Country code",
+            "Phone Number",
+            "Country",
+            "State",
+            "City",
+            "Postcode",
+            "Address",
+            "Nationality",
+            "You Live",
+            "Last Login IP"
+        ],
+        "Step_2": [
+            "Job type",
+            "We are looking for an",
+            "We are seeking an helper with the nationality",
+            "Our helper should have a good knowledge of (select language)",
+            "Earliest start date",
+            "Latest start date",
+            "Minimum stay",
+            "Maximum stay",
+            "Do you mind if your helper smokes?",
+            "Will your helper be required to drive?",
+            "Will your helper be required to help with light housework?"
+        ],
+        "Step_3": [
+            "Profile photo",
+            "Enter Profile text for Employees",
+            "Enter Text about us (Host family/employers)",
+            "Enter text about Tasks, schedule and payment to emplyees",
+            "Any other text"
+        ]
+    }
+}

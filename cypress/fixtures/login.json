@@ -1,0 +1,17 @@
+{
+  "Employee": {
+    "email": "hwsEmployee15@gmail.com",
+    "pass": "hwS150712@",
+    "fName":"Hws Employee"
+  },
+  "Employer": {
+    "email": "hwsEmployer15@gmail.com",
+    "pass": "hwsEmployer15@12",
+    "fName":"Hws Employer"
+  },
+  "Agency": {
+    "email": "hwsAgency15@gmail.com",
+    "pass": "hwsAgency15@12",
+    "fName":"SOS"
+  }
+}

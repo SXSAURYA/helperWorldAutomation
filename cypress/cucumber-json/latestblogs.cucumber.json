@@ -1,0 +1,180 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Latest Blog validation",
+    "line": 2,
+    "id": "latest-blog-validation",
+    "tags": [
+      {
+        "name": "@feature",
+        "line": 1
+      }
+    ],
+    "uri": "latestblogs.feature",
+    "elements": [
+      {
+        "id": "latest-blog-validation;verify-whether-on-click-of-view-details-under-blog-section-\"1\"-user-navigates-to-respective-blog-page",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Verify whether on click of View details under Blog section \"1\" user navigates to respective blog page",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on Home page",
+            "result": {
+              "status": "failed",
+              "duration": 60116000000,
+              "error_message": "CypressError: Timed out after waiting `60000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `60000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `cypress.json` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.\n    at timedOutWaitingForPageLoad (https://helpersworld.org/__cypress/runner/cypress_runner.js:155030:72)\n    at https://helpersworld.org/__cypress/runner/cypress_runner.js:156067:16\nFrom previous event:\n    at Context.visit (https://helpersworld.org/__cypress/runner/cypress_runner.js:156066:61)\n    at https://helpersworld.org/__cypress/runner/cypress_runner.js:168527:17\nFrom previous event:\n    at runCommand (https://helpersworld.org/__cypress/runner/cypress_runner.js:168506:10)\n    at next (https://helpersworld.org/__cypress/runner/cypress_runner.js:168649:16)\n    at https://helpersworld.org/__cypress/runner/cypress_runner.js:168678:18\nFrom previous event:\n    at next (https://helpersworld.org/__cypress/runner/cypress_runner.js:168649:36)\nFrom previous event:\n    at https://helpersworld.org/__cypress/runner/cypress_runner.js:182790:79\nFrom previous event:\n    at Object.run (https://helpersworld.org/__cypress/runner/cypress_runner.js:182785:23)\n    at Object.run (https://helpersworld.org/__cypress/runner/cypress_runner.js:168703:17)\n    at cy.<computed> [as then] (https://helpersworld.org/__cypress/runner/cypress_runner.js:169873:19)\n    at runnable.fn (https://helpersworld.org/__cypress/runner/cypress_runner.js:170097:23)\n    at callFn (https://helpersworld.org/__cypress/runner/cypress_runner.js:122959:21)\n    at ../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://helpersworld.org/__cypress/runner/cypress_runner.js:122946:7)\n    at https://helpersworld.org/__cypress/runner/cypress_runner.js:176627:30\nFrom previous event:\n    at Object.onRunnableRun (https://helpersworld.org/__cypress/runner/cypress_runner.js:176612:19)\n    at $Cypress.action (https://helpersworld.org/__cypress/runner/cypress_runner.js:166178:28)\n    at Runnable.run (https://helpersworld.org/__cypress/runner/cypress_runner.js:174346:13)\n    at ../driver/node_modules/mocha/lib/runner.js.Runner.runTest (https://helpersworld.org/__cypress/runner/cypress_runner.js:123618:10)\n    at https://helpersworld.org/__cypress/runner/cypress_runner.js:123744:12\n    at next (https://helpersworld.org/__cypress/runner/cypress_runner.js:123527:14)\n    at https://helpersworld.org/__cypress/runner/cypress_runner.js:123537:7\n    at next (https://helpersworld.org/__cypress/runner/cypress_runner.js:123439:14)\n    at Hook.<anonymous> (https://helpersworld.org/__cypress/runner/cypress_runner.js:123500:7)\n    at next (https://helpersworld.org/__cypress/runner/cypress_runner.js:176537:24)\n    at https://helpersworld.org/__cypress/runner/cypress_runner.js:176566:13\nFrom previous event:\n    at onNext (https://helpersworld.org/__cypress/runner/cypress_runner.js:176563:59)\n    at done (https://helpersworld.org/__cypress/runner/cypress_runner.js:122899:5)\n    at callFn (https://helpersworld.org/__cypress/runner/cypress_runner.js:122982:7)\n    at ../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://helpersworld.org/__cypress/runner/cypress_runner.js:122946:7)\n    at https://helpersworld.org/__cypress/runner/cypress_runner.js:176627:30\nFrom previous event:\n    at Object.onRunnableRun (https://helpersworld.org/__cypress/runner/cypress_runner.js:176612:19)\n    at $Cypress.action (https://helpersworld.org/__cypress/runner/cypress_runner.js:166178:28)\n    at Runnable.run (https://helpersworld.org/__cypress/runner/cypress_runner.js:174346:13)\n    at next (https://helpersworld.org/__cypress/runner/cypress_runner.js:123461:10)\n    at https://helpersworld.org/__cypress/runner/cypress_runner.js:123505:5\n    at timeslice (https://helpersworld.org/__cypress/runner/cypress_runner.js:117431:27)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Header text \"Latest Blogs\" for section \"Latest Blogs\" should get displayed",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click on View details link under section \"1\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User navigates to respective blogs page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "latest-blog-validation;verify-whether-on-click-of-view-details-under-blog-section-\"2\"-user-navigates-to-respective-blog-page",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Verify whether on click of View details under Blog section \"2\" user navigates to respective blog page",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 9012000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Header text \"Latest Blogs\" for section \"Latest Blogs\" should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 280000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click on View details link under section \"2\"",
+            "result": {
+              "status": "passed",
+              "duration": 3969000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User navigates to respective blogs page",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'How to make your profile attractive...' within the element: <h2.entry-title> but never did.\n    at Context.eval (https://helpersworld.org/__cypress/tests?p=cypress\\integration\\features\\latestblogs.feature:213:6)\n    at Context.resolveAndRunStepDefinition (https://helpersworld.org/__cypress/tests?p=cypress\\integration\\features\\latestblogs.feature:11740:29)\n    at Context.eval (https://helpersworld.org/__cypress/tests?p=cypress\\integration\\features\\latestblogs.feature:11061:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "latest-blog-validation;verify-whether-on-click-of-view-details-under-blog-section-\"3\"-user-navigates-to-respective-blog-page",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Verify whether on click of View details under Blog section \"3\" user navigates to respective blog page",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 7197000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Header text \"Latest Blogs\" for section \"Latest Blogs\" should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 502000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click on View details link under section \"3\"",
+            "result": {
+              "status": "passed",
+              "duration": 8307000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User navigates to respective blogs page",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'How to get started on Helper’s World (i...' within the element: <h2.entry-title> but never did.\n    at Context.eval (https://helpersworld.org/__cypress/tests?p=cypress\\integration\\features\\latestblogs.feature:213:6)\n    at Context.resolveAndRunStepDefinition (https://helpersworld.org/__cypress/tests?p=cypress\\integration\\features\\latestblogs.feature:11740:29)\n    at Context.eval (https://helpersworld.org/__cypress/tests?p=cypress\\integration\\features\\latestblogs.feature:11061:35)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

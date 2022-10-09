@@ -1,0 +1,662 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Get Started section validation",
+    "line": 2,
+    "id": "get-started-section-validation",
+    "tags": [
+      {
+        "name": "@feature",
+        "line": 1
+      }
+    ],
+    "uri": "getStarted.feature",
+    "elements": [
+      {
+        "id": "get-started-section-validation;ui-validation-for-how-helpers-world-work-on-click-on-create-a-profile",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "UI validation for How Helpers world work on click on Create a Profile",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 5414000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Header text \"Get started\" for section \"Get Started\" should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 107000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click on \"Create a Profile\" option under get started",
+            "result": {
+              "status": "passed",
+              "duration": 3711000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User navigates to How helpers world works Page",
+            "result": {
+              "status": "passed",
+              "duration": 60000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Points for \"Step 1. Create a Profile\" section should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 235000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Points for \"Step 2. Search Job\" section should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 209000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Points for \"Step 3. Make Contact\" section should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 353000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Points for \"Step 4. Have an agreement.\" section should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 123000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Points for \"Step 5. Prepare for a start\" section should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 409000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "get-started-section-validation;ui-validation-for-how-helpers-world-work-on-click-on-search-job",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "UI validation for How Helpers world work on click on Search Job",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 3432000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "Header text \"Get started\" for section \"Get Started\" should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 106000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I click on \"Search Job\" option under get started",
+            "result": {
+              "status": "passed",
+              "duration": 3253000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "User navigates to How helpers world works Page",
+            "result": {
+              "status": "passed",
+              "duration": 44000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "Points for \"Step 1. Create a Profile\" section should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 209000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "Points for \"Step 2. Search Job\" section should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 248000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "Points for \"Step 3. Make Contact\" section should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 610000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "Points for \"Step 4. Have an agreement.\" section should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 202000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "Points for \"Step 5. Prepare for a start\" section should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 397000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "get-started-section-validation;ui-validation-for-how-helpers-world-work-on-make-contact",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "UI validation for How Helpers world work on Make contact",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 27,
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 10367000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "Header text \"Get started\" for section \"Get Started\" should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 114000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "I click on \"Make contact\" option under get started",
+            "result": {
+              "status": "passed",
+              "duration": 4963000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "User navigates to How helpers world works Page",
+            "result": {
+              "status": "passed",
+              "duration": 51000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "Points for \"Step 1. Create a Profile\" section should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 198000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "Points for \"Step 2. Search Job\" section should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 209000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "Points for \"Step 3. Make Contact\" section should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 522000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "Points for \"Step 4. Have an agreement.\" section should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 273000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "Points for \"Step 5. Prepare for a start\" section should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 404000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "get-started-section-validation;ui-validation-for-how-helpers-world-work-on-have-an-agreements",
+        "keyword": "Scenario",
+        "line": 37,
+        "name": "UI validation for How Helpers world work on Have an agreements",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 38,
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 12127000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "Header text \"Get started\" for section \"Get Started\" should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 104000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "I click on \"Have an agreement\" option under get started",
+            "result": {
+              "status": "passed",
+              "duration": 4552000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "User navigates to How helpers world works Page",
+            "result": {
+              "status": "passed",
+              "duration": 63000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "Points for \"Step 1. Create a Profile\" section should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 195000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "Points for \"Step 2. Search Job\" section should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 211000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "Points for \"Step 3. Make Contact\" section should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 516000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "Points for \"Step 4. Have an agreement.\" section should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 179000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "Points for \"Step 5. Prepare for a start\" section should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 513000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "get-started-section-validation;verify-whether-on-click-of-\"register-as-an-employer/host-family\"-user-navigates-to-\"employer/host-family\"-page",
+        "keyword": "Scenario",
+        "line": 58,
+        "name": "Verify whether on click of \"Register as an employer/Host family\" user navigates to \"Employer/host family\" page",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 50,
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 19398000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "Header text \"Get started\" for section \"Get Started\" should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 110000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 52,
+            "name": "I click on \"Create a Profile\" option under get started",
+            "result": {
+              "status": "passed",
+              "duration": 3705000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 53,
+            "name": "User navigates to How helpers world works Page",
+            "result": {
+              "status": "passed",
+              "duration": 80000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 54,
+            "name": "User clicks on \"Register as an employer/Host family\" button",
+            "result": {
+              "status": "passed",
+              "duration": 2643000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "Header text \"Employer/host family\" for section \"Register as an employer/Host family\" should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 171000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "get-started-section-validation;verify-whether-on-click-of-\"register-as-a-job-seeker\"-user-navigates-to-\"jobseeker-registration\"-page",
+        "keyword": "Scenario",
+        "line": 59,
+        "name": "Verify whether on click of \"Register as a Job Seeker\" user navigates to \"Jobseeker Registration\" page",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 50,
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 4743000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "Header text \"Get started\" for section \"Get Started\" should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 108000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 52,
+            "name": "I click on \"Create a Profile\" option under get started",
+            "result": {
+              "status": "passed",
+              "duration": 3736000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 53,
+            "name": "User navigates to How helpers world works Page",
+            "result": {
+              "status": "passed",
+              "duration": 49000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 54,
+            "name": "User clicks on \"Register as a Job Seeker\" button",
+            "result": {
+              "status": "passed",
+              "duration": 1321000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "Header text \"Jobseeker Registration\" for section \"Register as a Job Seeker\" should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 162000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "get-started-section-validation;verify-whether-on-click-of-\"register-as-an-agency\"-user-navigates-to-\"agency-registration\"-page",
+        "keyword": "Scenario",
+        "line": 60,
+        "name": "Verify whether on click of \"Register as an Agency\" user navigates to \"Agency Registration\" page",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 50,
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 3611000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "Header text \"Get started\" for section \"Get Started\" should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 101000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 52,
+            "name": "I click on \"Create a Profile\" option under get started",
+            "result": {
+              "status": "passed",
+              "duration": 3320000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 53,
+            "name": "User navigates to How helpers world works Page",
+            "result": {
+              "status": "passed",
+              "duration": 55000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 54,
+            "name": "User clicks on \"Register as an Agency\" button",
+            "result": {
+              "status": "passed",
+              "duration": 1060000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "Header text \"Agency Registration\" for section \"Register as an Agency\" should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 171000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

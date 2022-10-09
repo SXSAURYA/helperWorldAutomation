@@ -1,0 +1,512 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Footer link validation",
+    "line": 2,
+    "id": "footer-link-validation",
+    "tags": [
+      {
+        "name": "@feature",
+        "line": 1
+      }
+    ],
+    "uri": "footer.feature",
+    "elements": [
+      {
+        "id": "footer-link-validation;verify-navigation-for-different-footer-links-\"home\"-under-section-useful-links-to-respective-urls",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Verify Navigation for different footer links \"Home\" under section Useful Links to respective urls",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 6221000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user clicks on link \"Home\" under section \"Useful Links\"",
+            "result": {
+              "status": "passed",
+              "duration": 1395000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user navigates to respective url for link \"helpersworld.org\"",
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "footer-link-validation;verify-navigation-for-different-footer-links-\"about-us\"-under-section-useful-links-to-respective-urls",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Verify Navigation for different footer links \"About us\" under section Useful Links to respective urls",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 2834000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user clicks on link \"About us\" under section \"Useful Links\"",
+            "result": {
+              "status": "passed",
+              "duration": 2448000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user navigates to respective url for link \"about-us\"",
+            "result": {
+              "status": "passed",
+              "duration": 37000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "footer-link-validation;verify-navigation-for-different-footer-links-\"contact-us\"-under-section-useful-links-to-respective-urls",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Verify Navigation for different footer links \"Contact us\" under section Useful Links to respective urls",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 7834000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user clicks on link \"Contact us\" under section \"Useful Links\"",
+            "result": {
+              "status": "passed",
+              "duration": 1798000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user navigates to respective url for link \"contact\"",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: expected 'https://helpersworld.org/' to include 'contact'\n    at Context.eval (https://helpersworld.org/__cypress/tests?p=cypress\\integration\\features\\footer.feature:91:12)\n    at Context.resolveAndRunStepDefinition (https://helpersworld.org/__cypress/tests?p=cypress\\integration\\features\\footer.feature:11652:29)\n    at Context.eval (https://helpersworld.org/__cypress/tests?p=cypress\\integration\\features\\footer.feature:10973:35)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "footer-link-validation;verify-navigation-for-different-footer-links-\"faq's\"-under-section-useful-links-to-respective-urls",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Verify Navigation for different footer links \"Faq's\" under section Useful Links to respective urls",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 6244000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user clicks on link \"Faq's\" under section \"Useful Links\"",
+            "result": {
+              "status": "passed",
+              "duration": 1575000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user navigates to respective url for link \"faqs\"",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "footer-link-validation;verify-navigation-for-different-footer-links-\"write-a-review\"-under-section-useful-links-to-respective-urls",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Verify Navigation for different footer links \"Write a review\" under section Useful Links to respective urls",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 2840000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user clicks on link \"Write a review\" under section \"Useful Links\"",
+            "result": {
+              "status": "passed",
+              "duration": 1226000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user navigates to respective url for link \"feedback\"",
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "footer-link-validation;verify-navigation-for-different-footer-links-\"blogs\"-under-section-quick-links-to-respective-urls",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Verify Navigation for different footer links \"Blogs\" under section Quick Links to respective urls",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 3842000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "user clicks on link \"Blogs\" under section \"Quick Links\"",
+            "result": {
+              "status": "passed",
+              "duration": 967000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "user navigates to respective url for link \"blog/list\"",
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "footer-link-validation;verify-navigation-for-different-footer-links-\"sitemap\"-under-section-quick-links-to-respective-urls",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Verify Navigation for different footer links \"Sitemap\" under section Quick Links to respective urls",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 2877000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "user clicks on link \"Sitemap\" under section \"Quick Links\"",
+            "result": {
+              "status": "passed",
+              "duration": 1370000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "user navigates to respective url for link \"sitemap\"",
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "footer-link-validation;verify-navigation-for-different-footer-links-\"terms-and-conditions\"-under-section-quick-links-to-respective-urls",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Verify Navigation for different footer links \"Terms and Conditions\" under section Quick Links to respective urls",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 3015000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "user clicks on link \"Terms and Conditions\" under section \"Quick Links\"",
+            "result": {
+              "status": "passed",
+              "duration": 1330000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "user navigates to respective url for link \"page/terms-and-conditions\"",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "footer-link-validation;verify-navigation-for-different-footer-links-\"privacy-policy\"-under-section-quick-links-to-respective-urls",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Verify Navigation for different footer links \"Privacy Policy\" under section Quick Links to respective urls",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 2931000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "user clicks on link \"Privacy Policy\" under section \"Quick Links\"",
+            "result": {
+              "status": "passed",
+              "duration": 1003000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "user navigates to respective url for link \"page/privacy-policy\"",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "footer-link-validation;verify-navigation-for-different-footer-links-\"facebook\"-under-section-our-social-media-networks-to-respective-urls",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Verify Navigation for different footer links \"facebook\" under section Our Social Media Networks to respective urls",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 2759000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "user clicks on link \"facebook\" under section \"Our Social Media Networks\"",
+            "result": {
+              "status": "passed",
+              "duration": 4221000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "user navigates to respective url for link \"facebook.com/Helpersworld\"",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "footer-link-validation;verify-navigation-for-different-footer-links-\"twitter\"-under-section-our-social-media-networks-to-respective-urls",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Verify Navigation for different footer links \"twitter\" under section Our Social Media Networks to respective urls",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 3371000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "user clicks on link \"twitter\" under section \"Our Social Media Networks\"",
+            "result": {
+              "status": "passed",
+              "duration": 5051000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "user navigates to respective url for link \"twitter.com/HelpersWorld1\"",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

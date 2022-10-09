@@ -1,0 +1,136 @@
+[
+  {
+    "description": "   Adding Items to Cart",
+    "keyword": "Feature",
+    "name": "Ecommerce Featire",
+    "line": 2,
+    "id": "ecommerce-featire",
+    "tags": [
+      {
+        "name": "@feature",
+        "line": 1
+      }
+    ],
+    "uri": "checkout.feature",
+    "elements": [
+      {
+        "id": "ecommerce-featire;verify-proceed-to-checkout-functionality",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Verify Proceed to checkout functionality",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 6213000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I perform search with 'ca'",
+            "result": {
+              "status": "passed",
+              "duration": 2119000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I added 'Cashews' in cart",
+            "result": {
+              "status": "passed",
+              "duration": 264000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Click on Add to Cart",
+            "result": {
+              "status": "passed",
+              "duration": 254000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Click on Proceed to Checkout",
+            "result": {
+              "status": "passed",
+              "duration": 1217000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Perform shipping Operation with country as 'India'",
+            "result": {
+              "status": "passed",
+              "duration": 1188000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Order should placed successfully",
+            "result": {
+              "status": "passed",
+              "duration": 57000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "ecommerce-featire;verify-proceed-to-checkout-functionality-smoke",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Verify Proceed to checkout functionality smoke",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 17
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 977000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

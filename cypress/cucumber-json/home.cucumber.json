@@ -1,0 +1,491 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Home Page Validations",
+    "line": 2,
+    "id": "home-page-validations",
+    "tags": [
+      {
+        "name": "@feature",
+        "line": 1
+      }
+    ],
+    "uri": "home.feature",
+    "elements": [
+      {
+        "id": "home-page-validations;verify-the-ui-for-home-page",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Verify the UI for Home Page",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 6965000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User should be able to see the all the navigation links \"Home,Employer/ Host family,Jobseeker,Agency,About Helper’s World\"",
+            "result": {
+              "status": "passed",
+              "duration": 628000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "\"Useful Links\" section links \"Home,About us,Contact us,Faq's,Write a review\" should be visible",
+            "result": {
+              "status": "passed",
+              "duration": 1365000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "\"Quick Links\" section links \"Blogs,Sitemap,Terms and Conditions,Privacy Policy\" should be visible",
+            "result": {
+              "status": "passed",
+              "duration": 1236000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "\"Our Social Media Networks\" section links \"facebook,twitter,linkedin,pinterest\" should be visible",
+            "result": {
+              "status": "passed",
+              "duration": 1097000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "home-page-validations;ui-validation-for-how-helpers-section-works",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "UI validation for How helpers section works",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 4613000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "Header text \"How Helpers World Work\" for section \"How Helpers World Work\" should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 464000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "Paragraph text for section \"How Helpers World Work\" should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 436000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "What you get options should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 592000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "Header text \"What you get?\" for section \"How Helpers World Work\" should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 881000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "home-page-validations;ui-validation-for-get-started-section",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "UI validation for Get started section",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 32,
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 3068000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "Header text \"Get started\" for section \"Get Started\" should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 134000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "All four option \"Create a Profile\",\"Search Job\", \"Make contact\",\"Have an agreement\" should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 363000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "home-page-validations;ui-validation-for-latest-blogs-section",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "UI validation for Latest Blogs section",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 37,
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 2997000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "Header text \"Latest Blogs\" for section \"Latest Blogs\" should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 599000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "Paragraph text for section \"Latest Blogs\" should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 309000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "Blogs option should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 76000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "home-page-validations;ui-validation-for-what-host-families-say-about-us",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "UI validation for What Host Families say about us",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 43,
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 3137000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "Header text \"What Host Families say about us\" for section \"What Host Families say about us\" should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 345000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "Paragraph text for section \"What Host Families say about us\" should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 276000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "\"Write a review\" link should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 301000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "What family says about us sections should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 74000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "home-page-validations;ui-validation-for-frequently-asked-question",
+        "keyword": "Scenario",
+        "line": 50,
+        "name": "UI validation for Frequently Asked Question",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 51,
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 2977000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "Header text \"Frequently Asked Question\" for section \"Frequently Asked Question\" should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 483000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "Paragraph text for section \"Frequently Asked Question\" should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 298000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "Frequently asked Question options should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 579000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "home-page-validations;ui-validation-for-do-you-have-any-questions",
+        "keyword": "Scenario",
+        "line": 56,
+        "name": "UI validation for Do you have any Questions",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 57,
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 3149000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "Header text \"Do you have any questions?\" for section \"Do you have any questions?\" should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 611000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 59,
+            "name": "Paragraph text for section \"Do you have any questions?\" should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 402000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 60,
+            "name": "Do you have any questions form should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 492000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 61,
+            "name": "Email details should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 207000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "home-page-validations;ui-validation-for-full-service-agency",
+        "keyword": "Scenario",
+        "line": 63,
+        "name": "UI validation for Full service Agency",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 64,
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 3380000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 65,
+            "name": "Header text \"Full service Agency\" for section \"Full service Agency\" should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 418000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 66,
+            "name": "Paragraph text for section \"Full service Agency\" should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 161000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 67,
+            "name": "Blogs option should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 96000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

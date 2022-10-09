@@ -1,0 +1,245 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Anonymous User : Home : Find and Employeer",
+    "line": 2,
+    "id": "anonymous-user-:-home-:-find-and-employeer",
+    "tags": [
+      {
+        "name": "@feature",
+        "line": 1
+      }
+    ],
+    "uri": "findEmployer.feature",
+    "elements": [
+      {
+        "id": "anonymous-user-:-home-:-find-and-employeer;verify-ui-and-navigation-of-find-employer",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Verify UI and navigation of Find Employer",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 4727000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click on 'Find an Employer' link",
+            "result": {
+              "status": "passed",
+              "duration": 762000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User should navigates to Quick search for 'employers/host family'",
+            "result": {
+              "status": "passed",
+              "duration": 64000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "\"We are based in\" select label and dropdown should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 224000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "\"Select job\" select label and dropdown should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 222000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "\"Male\" label and radio button should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 172000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "\"Female\" label and radio button should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 241000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "\"We are looking for employers/Host families in\" select label and dropdown should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 295000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "\"Earliest Start Date\" select label and dropdown should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 246000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "\"Latest Date\" select label and dropdown should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 261000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "\"State\" select label and dropdown should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 262000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "Search button should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 88000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "anonymous-user-:-home-:-find-and-employeer;verify-whether-user-is-able-to-searh-employer",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Verify whether user is able to searh employer",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 20
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 2777000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I click on 'Find an Employer' link",
+            "result": {
+              "status": "passed",
+              "duration": 734000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "User should navigates to Quick search for 'employers/host family'",
+            "result": {
+              "status": "passed",
+              "duration": 63000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "select \"Nigeria\" option from \"We are based in\" dropdown",
+            "result": {
+              "status": "passed",
+              "duration": 394000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "select \"Nigeria\" option from \"We are looking for employers/Host families in\" dropdown",
+            "result": {
+              "status": "passed",
+              "duration": 398000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I click on search button",
+            "result": {
+              "status": "passed",
+              "duration": 3042000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "Search should consist of some result",
+            "result": {
+              "status": "passed",
+              "duration": 81000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

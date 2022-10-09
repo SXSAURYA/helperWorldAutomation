@@ -1,0 +1,131 @@
+{
+    "Agency": {
+        "Update_Step_1": {
+            "Login_Information": [
+                "Email Address~TextBox",
+                "Please confirm your email address~TextBox"
+            ],
+            "Contact_Information": [
+                "Service provided/Type of agency~TextBox",
+                "Agency Name~TextBox",
+                "Title~TextBox",
+                "First Name~TextBox",
+                "Last Name~TextBox",
+                "Street address~TextBox",
+                "Postcode (ZIP code)~TextBox",
+                "Country~Dropdown",
+                "State~Dropdown",
+                "City~TextBox",
+                "Nationality~Dropdown"
+            ],
+            "Primary_Phone_Number": [
+                "Country code~Dropdown",
+                "Number~TextBox"
+            ],
+            "Sec_Phone_Number": [
+                "Country code~Dropdown",
+                "Number~TextBox"
+            ]
+        },
+        "Update_Step_2": [
+            "Select job~Dropdown",
+            "We would like a candidate from (Nationality)~Dropdown",
+            "Primary language~Dropdown",
+            "Select job~Dropdown",
+            "Your homepage~TextBox",
+            "When was your agency founded~dob",
+            "Email address (if different)~TextBox",
+            "Company registration number~TextBox",
+            "Upload proof of agency~TextBox"
+        ]
+    },
+    "Employee": {
+        "Update_Step_1": {
+            "about_me": [
+                "First Name~TextBox",
+                "Last Name~TextBox",
+                "Date of Birth~dob",
+                "Gender~Radio"
+            ],
+            "contact_details": [
+                "Email Address~TextBox",
+                "Please confirm your email address~TextBox",
+                "Country code~Dropdown",
+                "Phone number~TextBox",
+                "Address~TextBox",
+                "Postcode (ZIP code)~TextBox",
+                "Country~Dropdown",
+                "State~Dropdown",
+                "City~TextBox",
+                "Nationality~Dropdown"
+            ]
+        },
+        "Update_Step_2": {
+            "my_search": [
+                "Select job~Dropdown",
+                "Please select the city type for work~Checkbox",
+                "I will like to work in~Dropdown"
+            ],
+            "furthe_ques": [
+                "Do you Smoke?~Radio",
+                "Vegan?~Radio",
+                "Do you have a driving licence?~Radio",
+                "Would you be willing to do housework?~Radio",
+                "Are you willing to work in a single parent family?~Radio",
+                "Do you mind if family members smoke?~Radio",
+                "Are you willing to work with children with special needs?~Radio",
+                "Age range of the children you wish to take care of~dob"
+            ],
+            "start_working": [
+                "Earliest date you wish to start working~Dropdown",
+                "Latest date you wish to start working~Dropdown"
+            ],
+            "minimum_stay": [
+                "Minimum stay~Dropdown",
+                "Maximum stay~Dropdown"
+            ]
+        }
+    },
+    "Employer": {
+        "Update_Step_1": {
+            "about_me": [
+                "First Name~TextBox",
+                "Last Name~TextBox",
+                "Date of Birth~dob",
+                "Gender~Radio"
+            ],
+            "contact_details": [
+                "Email Address~TextBox",
+                "Please confirm your email address~TextBox",
+                "Country code~Dropdown",
+                "Phone number~TextBox",
+                "Address~TextBox",
+                "Postcode (ZIP code)~TextBox",
+                "Country~Dropdown",
+                "State~Dropdown",
+                "City~TextBox",
+                "Nationality~Dropdown",
+                "You Live~Radio"
+            ]
+        },
+        "Update_Step_2": {
+            "my_search": [
+                "Select job~Dropdown",
+                "We are looking for a~Radio",
+                "Our candidate should have a good knowledge of (select language)~Dropdown",
+                "We are seeking an helper with the nationality~Dropdown"
+            ],
+            "start_working": [
+                "Earliest date you wish to start working~Dropdown",
+                "Latest date you wish to start working~Dropdown",
+                "Do you mind if your helper smokes?~Radio",
+                "Will your helper be required to drive?~Radio",
+                "Will your helper be required to help with light housework?~Radio"
+            ],
+            "minimum_stay": [
+                "Minimum stay~Dropdown",
+                "Maximum stay~Dropdown"
+            ]
+        }
+    }
+}

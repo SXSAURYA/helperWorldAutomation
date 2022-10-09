@@ -1,0 +1,195 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Anonymous User : Home : Find an Agency",
+    "line": 2,
+    "id": "anonymous-user-:-home-:-find-an-agency",
+    "tags": [
+      {
+        "name": "@feature",
+        "line": 1
+      }
+    ],
+    "uri": "findAgency.feature",
+    "elements": [
+      {
+        "id": "anonymous-user-:-home-:-find-an-agency;verify-ui-and-navigation-for-find-agencies",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Verify UI and navigation for Find Agencies",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 4725000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click on 'Find Agency' link",
+            "result": {
+              "status": "passed",
+              "duration": 655000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User should navigates to Quick search for 'agencies'",
+            "result": {
+              "status": "passed",
+              "duration": 67000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "\"I live in\" select label and dropdown should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 206000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "\"Select job\" select label and dropdown should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 189000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "\"State\" select label and dropdown should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 206000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Type of Agency label and input text box should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 208000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Search button should get displayed",
+            "result": {
+              "status": "passed",
+              "duration": 66000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "anonymous-user-:-home-:-find-an-agency;verify-whether-user-is-able-to-search-agencies-or-not",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Verify whether user is able to search agencies or not",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 16
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 2673000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I click on 'Find Agency' link",
+            "result": {
+              "status": "passed",
+              "duration": 641000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "User should navigates to Quick search for 'agencies'",
+            "result": {
+              "status": "passed",
+              "duration": 54000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "select \"Nigeria\" option from \"I live in\" dropdown",
+            "result": {
+              "status": "passed",
+              "duration": 364000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I click on search button",
+            "result": {
+              "status": "passed",
+              "duration": 2736000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "Search should consist of some result",
+            "result": {
+              "status": "passed",
+              "duration": 98000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
