@@ -1,6 +1,6 @@
 ******************Details of dashboard Feature***************************
 
-Login Credentials(Username/Password) are --> hwsEmployer15@gmail.com / hwsEmployer15@12
+Login Credentials(Username/Password) are --> hwsEmployee15@gmail.com / hwS150712@
 
 
 ******************Login to Cypress Dashboard and Check Results****************
