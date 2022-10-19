@@ -20,7 +20,7 @@ Download Node from URL --> https://nodejs.org/en/download/
 
 Download the stable version as per OS (Windows or Mac)
 
-Download gitbash
+Download gitbash --> https://git-scm.com/downloads
 
 ********************************************************
 
